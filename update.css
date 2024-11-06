@@ -1,0 +1,122 @@
+/* Gaya untuk elemen body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    background-image: url(std\ 1.png);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+:root{
+    --bg-color: #fff;
+    --text-color: #22100d;
+    --second-color: #685f78;
+    --main-color: #f66962;
+    --big-font: 3.8rem;
+    --h2-font: 2.6rem;
+    --p-font: 1rem;
+    
+}
+
+
+/* Heading utama */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Gaya untuk daftar kursus */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #2980b9;
+}
+
+/* Gaya form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make the label text bold */
+    color: #685f78; /* Use a custom color variable */
+    font-size: 1rem; /* Set font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Tombol submit */
+form button[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    font-size: var(--p-font);
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.a1{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 15px;
+    font-size: var(--p-font);
+    font-weight: 700;
+    border-radius: 4px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    
+    /* border-radius: 30px; */
+    /* transition: all .40s ease; */
+}
+.a1 a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,69 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C9E7FF;
+    background-image: url(std\ 1.png);
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color: #fff;
+    --text-color: #22100d;
+    --second-color: #685f78;
+    --main-color: #f66962;
+    --big-font: 3.8rem;
+    --h2-font: 2.6rem;
+    --p-font: 1rem;
+    
+}
+.containerr {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make the label text bold */
+    color: var(--second-color); /* Use a custom color variable */
+    font-size: 1rem; /* Set font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 106%;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}

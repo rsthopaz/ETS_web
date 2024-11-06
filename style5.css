@@ -1,0 +1,28 @@
+:root{
+    --bg-color: #fff;
+    --text-color: #22100d;
+    --second-color: #685f78;
+    --main-color: #f66962;
+    --big-font: 3.8rem;
+    --h2-font: 2.6rem;
+    --p-font: 1rem;
+    
+}
+.btn4 a{
+    color: white;
+}
+
+.btn4{
+    display: inline-block;
+    padding: 16px 30px;
+    font-size: var(--p-font);
+    font-weight: 700;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    transition: all .40s ease;
+}
+
+.btn4:hover{
+    transform: scale(1.1);
+}
